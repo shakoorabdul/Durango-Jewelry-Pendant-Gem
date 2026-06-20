@@ -1,45 +1,186 @@
-<!-- Abdul Shakoor - May 31, 2026 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Durango Jewelry Pendant Gem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durango Jewelry and Gem Shop</title>
+    <style>
+        /* Base page styling */
+        body {
+            background-color: #a3c293; /* Outer dark border background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Main wrapper to center the webpage content */
+        #wrapper {
+            background-color: #bcdba3; /* Primary light green background */
+            width: 100%;
+            max-width: 960px;
+            padding: 30px;
+            box-sizing: border-box;
+            border: 1px solid #9bb785;
+        }
+
+        /* Top layout section holding the image/nav column and the headers */
+        .top-section {
+            overflow: auto; /* Clears internal floats */
+            margin-bottom: 20px;
+        }
+
+        /* Sidebar column containing the image and the navigation beneath it */
+        .sidebar-col {
+            float: left;
+            width: 156px; /* Accounts for image width + border */
+            margin-right: 25px;
+            margin-bottom: 15px;
+        }
+
+        /* Image styling */
+        .jewelry-img {
+            width: 150px;
+            height: auto;
+            border: 2px solid #222;
+            display: block;
+            margin-bottom: 15px; /* Creates spacing before the links below it */
+        }
+
+        /* Navigation menu links styling directly under the image */
+        nav ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        nav li {
+            margin-bottom: 6px;
+        }
+
+        nav a {
+            color: #0000ee;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+
+        /* Header typography styling floating to the right of the sidebar column */
+        header {
+            overflow: hidden; /* Takes up remaining space next to floated sidebar */
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0 0 12px 0;
+            color: #000;
+        }
+
+        header h2 {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+            color: #000;
+        }
+
+        /* Main description block styling */
+        main {
+            clear: both; /* Ensures content drops cleanly below the top section */
+            background-color: #eaf5df; /* Lighter inner green block background */
+            border-radius: 20px;
+            padding: 30px;
+            color: #222;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        main p {
+            margin: 0 0 20px 0;
+        }
+
+        main ul {
+            list-style-type: disc;
+            padding-left: 25px;
+            margin: 0 0 20px 0;
+        }
+
+        main li {
+            margin-bottom: 8px;
+        }
+
+        main .closing-text {
+            margin-bottom: 0;
+        }
+
+        /* Footer typography and alignment styling */
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 11px;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        footer a {
+            color: #0000ee;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
-    <header>
-        <img src="wirewrap01.jpg" alt="smoky quartz pendant" width="171" height="171">
-        <h1>Durango Jewelry and Gem Shop</h1>
-        <h2>Distinguished wire-wrapped jewelry, pendants, and gems</h2>
-    </header>
+    <!-- Main container that surrounds all elements to center them -->
+    <div id="wrapper">
 
-    <nav>
-        <a href="classics.html">Classics</a>&nbsp;
-        <a href="specials.html">Specials</a>&nbsp;
-        <a href="gems.html">Gems</a>&nbsp;
-        <a href="contact.html">Contact Me</a>&nbsp;
-    </nav>
+        <!-- Top container holding layout elements -->
+        <div class="top-section">
+            
+            <!-- Left aligned column: Holds image with links moved directly below -->
+            <div class="sidebar-col">
+                <img src="wirewrap01.jpg" alt="Wire-wrapped jewelry pendant" class="jewelry-img">
+                
+                <!-- Navigation menu moved below the image element -->
+                <nav>
+                    <ul>
+                        <li><a href="#classics">Classics</a></li>
+                        <li><a href="#specials">Specials</a></li>
+                        <li><a href="#gems">Gems</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Header items alongside the sidebar column -->
+            <header>
+                <h1>Durango Jewelry and Gem Shop</h1>
+                <h2>Distinguished wire-wrapped jewelry, pendants, and gems</h2>
+            </header>
 
-    <div id="main">
-        <p>Durango Jewelry and Gem Shop pampers you with one-of-a-kind, high-quality wire-wrapped pendants and gems. Our works of art are inspired by natural geometries and the vast beauty of mother nature.</p>
-        
-        <p>The featured pendant provides these characteristics:</p>
-        <ul>
-            <li>gemstone is "Smoky quartz" also called a "Soulmate Crystal"</li>
-            <li>gemstone is over two carats</li>
-            <li>wire is a mixture of antique colored copper and .930 pure silver</li>
-            <li>high-quality silver alloy requires very little polishing</li>
-            <li>pendant is approximately 4cm × 3cm</li>
-        </ul>
+        </div>
 
-        <p>Come to Durango Jewelry and Gem Shop to make your stay in Durango a life-time treasure.</p>
+        <!-- Main text description card content -->
+        <main>
+            <p>Durango Jewelry and Gem Shop pampers you with one-of-a-kind, high-quality wire wrapped pendants and gems. Our works of art are inspired by natural geometries and the vast beauty of mother nature.</p>
+            
+            <p>The featured pendant provides these characteristics:</p>
+            <ul>
+                <li>gemstone is <strong>"Smoky quartz"</strong> also called a <strong>"Soulmate Crystal"</strong></li>
+                <li>gemstone is over two carats</li>
+                <li>wire is a mixture of antique color copper and .930 pure silver</li>
+                <li>high-quality silver alloy requires very little polishing</li>
+                <li>pendant is approximately 4cm x 3cm</li>
+            </ul>
+
+            <p class="closing-text">Come to Durango Jewelry and Gem Shop to make your stay in Durango a life-time treasure.</p>
+        </main>
+
+        <!-- Footer containing address details and dynamic link elements -->
+        <footer>
+            <div>Durango Jewelry and Gem Shop, 10101 Main Street, Durango, CO | Established 1979</div>
+            <div><a href="mailto:info@durangojewelry.com">Contact us through email</a></div>
+        </footer>
+
     </div>
-
-    <footer>
-        <p>Durango Jewelry and Gem Shop, 10101 Main Street, Durango, CO</p>
-        <p>Established 1979</p>
-        <p><a href="mailto:gemologist@durangogem.com">Contact us through email</a></p>
-    </footer>
 
 </body>
 </html>
